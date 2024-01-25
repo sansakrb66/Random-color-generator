@@ -1,0 +1,50 @@
+div{
+    width: 600px;
+    height: 300px;
+    border: 2px solid black;
+    margin: auto;
+    border-radius: 0.5rem;
+    box-shadow: 6px 2px 2px 1px gray;
+    border: none;
+    background-color: aliceblue;
+    transition: all .5s ease-in-out;
+}
+
+body{
+    text-align: center;
+    background-color: rgb(198, 191, 182);
+    justify-content: center;
+    
+}
+
+button{
+    width: 10rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 5px -2px 5px 2px grey;
+    border: none;
+    color: rgb(246, 247, 246);
+    background-color: rgb(124, 121, 121);
+}
+
+button:hover{
+    transform: scale(1.2);
+    transition: all .3s ease-in-out;
+}
+
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+h3:hover{
+    transform: scale(1.2);
+    transition: all .3s ease-in-out;
+
+}
+
+div:hover{
+    transform: scale(1.1);
+    transition: all .3s ease-in-out;
+
+}
+
